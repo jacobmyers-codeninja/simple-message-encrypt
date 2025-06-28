@@ -1,0 +1,23 @@
+{
+  "name": "simple-message-encrypt",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "preact": "^10.26.9",
+    "libsodium-wrappers-sumo": "^0.7.15",
+    "scrypt-js": "^3.0.1"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.10.1",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.0",
+    "@types/libsodium-wrappers-sumo": "^0.7.8",
+    "@types/scrypt-js": "^3.0.1"
+  }
+}
