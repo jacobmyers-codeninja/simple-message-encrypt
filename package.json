@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "preact": "^10.26.9",
+    "preact": "^10.28.2",
     "libsodium-wrappers-sumo": "^0.7.15",
     "scrypt-js": "^3.0.1"
   },
